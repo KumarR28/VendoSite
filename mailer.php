@@ -1,12 +1,13 @@
 <?php
 $name = $_POST['name'];
 $email = $_POST['email'];
+$phone = $_POST['phone'];
 $message = $_POST['message'];
  
 $to = 'KumarR28@me.com';
-$subject = 'Message From Vendo Contact Page';
-$message = 'FROM: '.$name.' Email: '.$email.' Message: '.$message;
-$headers = 'From: mailprocessor@typeserve.com' . "\r\n";
+$subject = 'Message From Vendo Careers Page';
+$message = 'FROM: '.$name.' Email: '.$email.' Message: '.$message.' Phone: '.$phone;
+$headers = 'From: mailprocessor@typeserve.com';
  
 
 if (filter_var($email, FILTER_VALIDATE_EMAIL)) {  

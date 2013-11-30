@@ -1,10 +1,10 @@
-/*---------	Contact Form  -------*/
+/*---------	careers Form  -------*/
  
  $(document).ready(function(){
  
 $('#send').click(function(){
  
-$.post("mailer.php", $("#contactform").serialize(),  function(response) {
+$.post("careersmailer.php", $("#careersform").serialize(),  function(response) {
 $('#success').html(response);
 //$('#success').hide('slow');
 });
