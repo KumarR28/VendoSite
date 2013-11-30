@@ -4,7 +4,7 @@ $email = $_POST['email'];
 $phone = $_POST['phone'];
 $message = $_POST['message'];
  
-$to = 'KumarR28@me.com';
+$to = 'palai@vendo-inc.com';
 $subject = 'Message From Vendo Careers Page';
 $message = 'FROM: '.$name.' Email: '.$email.' Message: '.$message.' Phone: '.$phone;
 $headers = 'From: mailprocessor@typeserve.com';
