@@ -247,6 +247,7 @@ img.b {	position: absolute;	left: 0; top: 0; z-index: 12; border:0px solid #cccc
 /* 11.  Footer */
 /*----------------------------------------------------*/
 
+
 footer { background:url("../img/body.png")repeat ;  position: relative; z-index:5; height:76px; display:block; box-shadow:0px -1px 1px rgba(0,0,0,0.2); }
 
 .copy { width:300px; float:left; margin:34px 0 0 ; font-size:14px; color:#7b8285; }
